@@ -4,8 +4,16 @@ const employees = [
     "firstName": "John",
     "email": "employee1@example.com",
     "password": "Password123",
+    "taskSummary": {
+      "totalTasks": 3,
+      "active": 2,
+      "newTask": 1,
+      "completeTask": 1,
+      "failed": 1
+    },
     "tasks": [
       {
+        "taskNumber": 1,
         "active": true,
         "newTask": false,
         "completeTask": true,
@@ -16,6 +24,7 @@ const employees = [
         "category": "Project"
       },
       {
+        "taskNumber": 2,
         "active": true,
         "newTask": true,
         "completeTask": false,
@@ -26,6 +35,7 @@ const employees = [
         "category": "Presentation"
       },
       {
+        "taskNumber": 3,
         "active": false,
         "newTask": false,
         "completeTask": false,
@@ -42,8 +52,16 @@ const employees = [
     "firstName": "Jane",
     "email": "employee2@example.com",
     "password": "Password456",
+    "taskSummary": {
+      "totalTasks": 3,
+      "active": 2,
+      "newTask": 1,
+      "completeTask": 1,
+      "failed": 0
+    },
     "tasks": [
       {
+        "taskNumber": 1,
         "active": true,
         "newTask": true,
         "completeTask": false,
@@ -54,6 +72,7 @@ const employees = [
         "category": "Research"
       },
       {
+        "taskNumber": 2,
         "active": true,
         "newTask": false,
         "completeTask": false,
@@ -64,6 +83,7 @@ const employees = [
         "category": "Finance"
       },
       {
+        "taskNumber": 3,
         "active": false,
         "newTask": false,
         "completeTask": true,
@@ -80,8 +100,16 @@ const employees = [
     "firstName": "Michael",
     "email": "employee3@example.com",
     "password": "Password789",
+    "taskSummary": {
+      "totalTasks": 3,
+      "active": 2,
+      "newTask": 1,
+      "completeTask": 1,
+      "failed": 1
+    },
     "tasks": [
       {
+        "taskNumber": 1,
         "active": true,
         "newTask": true,
         "completeTask": false,
@@ -92,6 +120,7 @@ const employees = [
         "category": "Development"
       },
       {
+        "taskNumber": 2,
         "active": true,
         "newTask": false,
         "completeTask": true,
@@ -102,6 +131,7 @@ const employees = [
         "category": "Testing"
       },
       {
+        "taskNumber": 3,
         "active": false,
         "newTask": false,
         "completeTask": false,
@@ -118,33 +148,43 @@ const employees = [
     "firstName": "Sarah",
     "email": "employee4@example.com",
     "password": "Password101",
+    "taskSummary": {
+      "totalTasks": 3,
+      "active": 2,
+      "newTask": 1,
+      "completeTask": 1,
+      "failed": 1
+    },
     "tasks": [
       {
+        "taskNumber": 1,
         "active": true,
         "newTask": false,
         "completeTask": true,
         "failed": false,
-        "taskTitle": "Task 1",
+        "taskTitle": "Organize team meeting",
         "taskDescription": "Organize team meeting",
         "taskDate": "2024-10-21",
         "category": "Management"
       },
       {
+        "taskNumber": 2,
         "active": true,
         "newTask": true,
         "completeTask": false,
         "failed": false,
-        "taskTitle": "Task 2",
+        "taskTitle": "Write project proposal",
         "taskDescription": "Write project proposal",
         "taskDate": "2024-10-22",
         "category": "Project"
       },
       {
+        "taskNumber": 3,
         "active": false,
         "newTask": false,
         "completeTask": false,
         "failed": true,
-        "taskTitle": "Task 3",
+        "taskTitle": "Review team performance",
         "taskDescription": "Review team performance",
         "taskDate": "2024-10-23",
         "category": "Performance"
@@ -156,8 +196,16 @@ const employees = [
     "firstName": "Emily",
     "email": "employee5@example.com",
     "password": "Password202",
+    "taskSummary": {
+      "totalTasks": 3,
+      "active": 2,
+      "newTask": 1,
+      "completeTask": 1,
+      "failed": 0
+    },
     "tasks": [
       {
+        "taskNumber": 1,
         "active": true,
         "newTask": false,
         "completeTask": false,
@@ -168,6 +216,7 @@ const employees = [
         "category": "Marketing"
       },
       {
+        "taskNumber": 2,
         "active": true,
         "newTask": true,
         "completeTask": false,
@@ -178,6 +227,7 @@ const employees = [
         "category": "Content"
       },
       {
+        "taskNumber": 3,
         "active": false,
         "newTask": false,
         "completeTask": true,
